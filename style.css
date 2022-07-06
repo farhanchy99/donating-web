@@ -1,0 +1,207 @@
+body{
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    width: 100%;
+}
+h1{
+    color: white;
+    font-size: 65px;
+}
+h2{
+    font-size: 45px;
+    margin: 0;
+}
+h3{
+    font-size: 35px;
+}
+p{
+    font-size: 15px;
+    color: #707070;
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+section{
+    height: 500px;
+    margin-bottom: 100px;
+}
+.top-banner{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background: url(images/donate_cover.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner{
+    text-align: center;
+    width: 60%;
+    margin: 50px auto;
+}
+.btn{
+    background: #4775E9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.donation p{
+    color: #707070;
+}
+.donate-block{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.donate-select {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 70px;
+}
+.donate-select h2{
+    font-weight: 700;
+    color: #707070;
+    font-size: 30px;
+}
+.donate{
+    width: 15%;
+    border-radius: 5px;
+    background: #f1f1f1;
+    float: left;
+    padding: 1%;
+    margin-left: 2%;
+}
+#donate-two{
+    border: 2px solid #4775E9;
+    background-color: #c3d4fe;
+}
+#donate-two h2{
+    color: #1e5bf6;
+}
+.amount{
+    width: 100%;
+}
+.amount input{
+    width: 100%;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 3px solid #DADADA;
+    outline: none;
+    padding-bottom: 15px;
+}
+.amount input::placeholder{
+    text-align: center;
+    font-size: 18px;
+    color: #B3B3B3;
+}
+.donate-plan{
+    text-align: center;
+    width: 100%;
+}
+.plan-block{
+    width: 60%;
+    margin: auto;
+}
+.plans{
+    width: 85%;
+    display: inline-block;
+    text-align: left;
+}
+.plans img{
+    width: 15%;
+}
+.plans h3{
+    font-size: 24px;
+}
+.plan_1{
+    width: 25%;
+    height: 280px;
+    border-radius: 5px;
+    background: #FFEEEE;
+    float: left;
+    padding: 2%;
+    margin-left: 4%;
+}
+.plan_2{
+    width: 25%;
+    height: 280px;
+    border-radius: 5px;
+    background: #EDF5F6;
+    float: left;
+    padding: 2%;
+    margin-left: 4%;
+}
+.plan_3{
+    width: 25%;
+    height: 280px;
+    border-radius: 5px;
+    background: #FFF4D6;
+    float: left;
+    padding: 2%;
+    margin-left: 4%;
+}
+.img-width{
+    width: 35%;
+    float: left;
+    margin-left: 10%;
+    padding: 5% 0;
+}
+.text-width{
+    width: 42%;
+    float: left;
+    margin-left: 5%;
+}
+.email{
+    height: 400px;
+}
+.email-header{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.email-box{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    background-color: #EDF5F6;
+    height: 220px;
+}
+.email form{
+    padding: 10%;
+    display: flex;
+}
+.email input{
+    height: 50px;
+    width: 45%;
+    padding: 0 25px;
+    margin-left: 15%;
+    background-color: #D9D9D9;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+}
+.email input::placeholder{
+    font-size: 16px;
+    color: #AA9F9F;
+}
+.sub-btn{
+    font-size: 16px;
+    background: #4775E9;
+    padding: 13px 30px;
+    border-radius: 0 5px 5px 0;
+}
+.end-banner{
+    text-align: center;
+    height: 200px;
+    background-color: #0B0D17;
+    margin: auto;
+}
+.end-banner h2{
+    color: #4775E9;
+    padding-top: 50px;
+}
