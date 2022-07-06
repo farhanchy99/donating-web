@@ -44,6 +44,9 @@ section{
     width: 60%;
     margin: 50px auto;
 }
+.banner p{
+    color: white;
+}
 .btn{
     background: #4775E9;
     padding: 10px 20px;
