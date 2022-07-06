@@ -195,8 +195,11 @@ section{
 .sub-btn{
     font-size: 16px;
     background: #4775E9;
+    color: white;
     padding: 13px 30px;
     border-radius: 0 5px 5px 0;
+    border: none;
+    outline: none;
 }
 .end-banner{
     text-align: center;
